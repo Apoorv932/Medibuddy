@@ -3,7 +3,7 @@ import axios from 'axios';
 // Hardcoded FDA Drug Label API base URL
 const BASE_URL = 'https://api.fda.gov/drug/label.json';
 
-// Simple function to search medicines using Axios
+
 export const searchMedicines = async (query) => {
   if (!query || query.trim() === '') return [];
 

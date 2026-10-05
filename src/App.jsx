@@ -6,7 +6,7 @@ function App() {
   const [medicines, setMedicines] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // Search function
+
   const handleSearch = async (e) => {
     e.preventDefault();
     if (!query) return;
@@ -34,10 +34,10 @@ function App() {
         <button type="submit" style={{ padding: '8px 16px' }}>Search</button>
       </form>
 
-      {/* Loading state */}
+     
       {loading && <p>Loading...</p>}
 
-      {/* Results List */}
+    
       <div>
         {medicines.map((med, index) => (
           <div 
