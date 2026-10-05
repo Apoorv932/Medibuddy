@@ -26,7 +26,7 @@ function App() {
       <form onSubmit={handleSearch} style={{ marginBottom: '20px' }}>
         <input
           type="text"
-          placeholder="Enter medicine name..."
+          placeholder="Enter medicine name... and click Enter "
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           style={{ padding: '8px', width: '300px', marginRight: '10px' }}
